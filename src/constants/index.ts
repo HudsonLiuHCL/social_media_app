@@ -5,19 +5,34 @@ export const sidebarLinks = [
     label: "Home",
   },
   {
+    imgURL: "/assets/icons/gallery-add.svg",
+    route: "/Classes",
+    label: "Classes",
+  },
+  {
+    imgURL: "/assets/icons/gallery-add.svg",
+    route: "/Campus",
+    label: "Campus",
+  },
+  {
     imgURL: "/assets/icons/wallpaper.svg",
-    route: "/explore",
-    label: "Explore",
+    route: "/Posts",
+    label: "Posts",
   },
   {
     imgURL: "/assets/icons/people.svg",
-    route: "/all-users",
-    label: "People",
+    route: "/Search",
+    label: "Search",
   },
   {
     imgURL: "/assets/icons/bookmark.svg",
     route: "/saved",
     label: "Saved",
+  },
+  {
+    imgURL: "/assets/icons/gallery-add.svg",
+    route: "/student-designation",
+    label: "Student Designation",
   },
   {
     imgURL: "/assets/icons/gallery-add.svg",
@@ -34,8 +49,8 @@ export const bottombarLinks = [
   },
   {
     imgURL: "/assets/icons/wallpaper.svg",
-    route: "/explore",
-    label: "Explore",
+    route: "/Search",
+    label: "Search",
   },
   {
     imgURL: "/assets/icons/bookmark.svg",

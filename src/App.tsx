@@ -2,7 +2,8 @@ import { Routes, Route } from "react-router-dom";
 
 import {
   Home,
-  Explore,
+  Search,
+  Posts,
   Saved,
   CreatePost,
   Profile,
@@ -18,6 +19,12 @@ import SigninForm from "@/_auth/forms/SigninForm";
 import { Toaster } from "@/components/ui/toaster";
 
 import "./globals.css";
+import SchoolYear from "./_root/pages/Classes/SchoolYear";
+import Online from "./_root/pages/Classes/Online";
+import SpringAndSummer from "./_root/pages/Classes/SpringAndSummer";
+import School from "./_root/pages/Campus/School";
+import StudentDesignation from "./_root/StudentDesignation";
+import Dorm from "./_root/pages/Campus/Dorm";
 
 const App = () => {
   return (
@@ -32,7 +39,14 @@ const App = () => {
         {/* private routes */}
         <Route element={<RootLayout />}>
           <Route index element={<Home />} />
-          <Route path="/explore" element={<Explore />} />
+          <Route path="/SchoolYear" element={<SchoolYear />} />
+          <Route path="/Online" element={<Online />} />
+          <Route path="/SpringAndSummer" element={<SpringAndSummer />} />
+          <Route path="/Search" element={<Search />} />
+          <Route path="/School" element={<School />} /> 
+          <Route path="/Dorm" element={<Dorm />} /> 
+          <Route path="/Student-Designation" element={<StudentDesignation />} /> 
+          <Route path="/Posts" element={<Posts />} />
           <Route path="/saved" element={<Saved />} />
           <Route path="/all-users" element={<AllUsers />} />
           <Route path="/create-post" element={<CreatePost />} />

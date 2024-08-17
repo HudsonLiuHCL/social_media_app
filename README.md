@@ -421,7 +421,7 @@ export const bottombarLinks = [
   }
 
   .leftsidebar-link {
-    @apply rounded-lg base-medium hover:bg-primary-500 transition;
+    @apply rounded-lg base-medium hover:"bg-blue-500 transition;
   }
 
   /* Post Card */
@@ -465,7 +465,7 @@ export const bottombarLinks = [
 
   /* Button */
   .shad-button_primary {
-    @apply bg-primary-500 hover:bg-primary-500 text-light-1 flex gap-2 !important;
+    @apply "bg-blue-500 hover:"bg-blue-500 text-light-1 flex gap-2 !important;
   }
 
   .shad-button_dark_4 {
